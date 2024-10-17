@@ -1,53 +1,12 @@
+theme: jekyll-theme-minimal
+title: Toto's Personal Website
+description: Bookmark this to follow my personal blog, project updates, and more!
 
-# Basic Site Settings
-title: "John Doe's Personal Website"
-description: "Personal blog and portfolio of John Doe - Software Developer, Tech Enthusiast, and Writer."
-url: "https://johndoe.github.io" # Replace with your GitHub pages URL
-baseurl: "" # Leave this empty if deploying to root URL
-author: "John Doe"
+# Customize the appearance
+accent_color: "#3498db"
+background_color: "#f4f4f9"
+text_color: "#333"
 
-# Social Media Links
-social:
-  github: "https://github.com/johndoe"
-  linkedin: "https://linkedin.com/in/johndoe"
-  twitter: "https://twitter.com/johndoe"
-  email: "mailto:johndoe@example.com"
-
-# About Me Section
-about:
-  name: "John Doe"
-  avatar: "/assets/images/avatar.jpg" # Path to your avatar image
-  bio: "I'm a software developer with a passion for building web applications and learning new technologies. Currently working at XYZ Corp, I specialize in JavaScript, Python, and full-stack development."
-  location: "New York, USA"
-  interests:
-    - Web Development
-    - Open Source
-    - Technology Writing
-    - Hiking
-
-# Navigation Menu
-nav:
-  - name: "Home"
-    link: "/"
-  - name: "About"
-    link: "/about"
-  - name: "Projects"
-    link: "/projects"
-  - name: "Blog"
-    link: "/blog"
-  - name: "Contact"
-    link: "/contact"
-
-# Blog Settings
-permalink: /:year/:month/:day/:title/
-paginate: 5
-
-# Markdown Settings
-markdown: kramdown
-highlighter: rouge
-
-# Plugins (optional)
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# Site details
+author: "Toto"
+email: "toto@example.com"
